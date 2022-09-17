@@ -15,6 +15,7 @@ enum class CameraState : uint8 {
 	kNumStates UMETA(DisplayName = "Total number of different camera states")
 };
 
+
 const float DEFAULT_ANALYZE_TIME_IN_SECONDS = 5.0f;
 const float DEFAULT_ALARM_TIME_IN_SECONDS = 2.0f;
 UCLASS()
